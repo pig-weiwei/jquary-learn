@@ -12,6 +12,24 @@
 		<li>皮皮猪1</li>
 		<li>皮皮猪1</li>
 	</ul>
-	<script type="text/javascript" src="js/jquary.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script>
+		$(function(){
+			/*$("li")
+			.css("backgroundColor","blue")
+			.css("fontSize","38px")*/
+			
+		/*
+		$("li").css({
+			backgroundColor: "red",
+			fontSize: "38px"
+			})
+		*/
+		console.log($("li").css("fontSize")); //打印原始元素
+		});
+		 //隐式迭代：
+		 //设置操作时会给所有对象设置相同的值
+		 //获取时，却只会返回第一个对象的值
+	</script>
 </body>
 </html>
