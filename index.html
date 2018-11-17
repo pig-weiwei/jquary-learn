@@ -3,6 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="js/jquery-1.7.1.js"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000000;
+        }
+    </style>
+    <script rel="js/"></script>
+    <script>
+        /*window.onload = function (str) {
+            var box1 = document.getElementsByTagName("div")[0];
+            var box2 =document.getElementsByClassName("box2")[0];
+            var box3 = document.getElementById("box1");
+            console.log(box1,box2,box3);
+            box1.style.background = "red";
+            box2.style.background = "green";
+            box3.style.background = "black";
+        }*/
+        $(function () {
+            var $div1 = $("div");
+            var $div2 = $(".box2");
+            var $div3 = $("#box1");
+
+            $div1.css({
+                background: "red",
+                width: "200px",
+                height: "200px"
+            });
+            $div2.css({
+                background: "green",
+                width: "200px",
+                height: "200px"
+            });
+            $div3.css({
+                background: "black",
+                width: "200px",
+                height: "200px"
+            });
+        })
+    </script>
+
 
 </head>
 <body>
