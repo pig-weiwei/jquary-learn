@@ -3,8 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        window.onload = function(str){
+            var img = document.getElementsByTagName("img")[0];
+            var width = window.getComputedStyle(img).width;
+            console.log("onload",width);
+        };
+
+        /*
+        * 原生js和jQuery入口函数的加载方式不同
+        * 原生函数js会等dom和图片都加载完成才会执行
+        * jQuery则不一样，jQuery会等dom加载完成，但是不会等图片加载完成，就会执行
+        *
+        *
+        * */
+        $(document).ready(function () {
+            var $pic1 = $("img");
+            console.log($pic1);
+            var $width1 = $pic1.width();
+            console.log("ready",$width1);
+        });
+       /* window.onload = function (str) {
+            alert("a1");
+        };
+        window.onload = function (str) {
+            alert("a2");
+        };*/
+
+       /*
+       * 原生js和jQuery加载模式不同
+       * 原生js后写的会覆盖前写的函数
+       * jQuery不会覆盖，都会执行
+       *
+       * */
+
+
+
+        $(document).ready(function () {
+            alert("a1");
+        })
+        $(document).ready(function () {
+            alert("a2");
+        })
+
+    </script>
 </head>
 <body>
-
-</body>
+<img src="http://www.xitonghe.com/uploadfile/2016/1023/20161023030704703.jpg"/></body>
 </html>
