@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1751b0-931f-42cd-8374-5f2a7e671235" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/jQuery对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery核心函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/静态方法和实例方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery中的其他静态方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/静态方法holdready方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/静态方法的map方法.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/静态方法的each方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/静态方法的each方法.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,29 +20,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jQuery对象.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jQuery对象.html">
+      <file leaf-file-name="静态方法的each方法.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/静态方法的each方法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="65">
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="静态方法和实例方法.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/静态方法和实例方法.html">
+      <file leaf-file-name="静态方法的map方法.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/静态方法的map方法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="136">
+              <caret line="8" column="44" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/1.js">
+      <file leaf-file-name="jQuery中的其他静态方法.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jQuery中的其他静态方法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="408">
+              <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="静态方法holdready方法.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/静态方法holdready方法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -71,6 +81,10 @@
         <option value="$PROJECT_DIR$/jQuery核心函数.html" />
         <option value="$PROJECT_DIR$/jQuery对象.html" />
         <option value="$PROJECT_DIR$/静态方法和实例方法.html" />
+        <option value="$PROJECT_DIR$/静态方法的each方法.html" />
+        <option value="$PROJECT_DIR$/静态方法的map方法.html" />
+        <option value="$PROJECT_DIR$/jQuery中的其他静态方法.html" />
+        <option value="$PROJECT_DIR$/静态方法holdready方法.html" />
       </list>
     </option>
   </component>
@@ -163,14 +177,14 @@
       <workItem from="1542436802839" duration="3452000" />
       <workItem from="1542444668602" duration="3708000" />
       <workItem from="1542455990660" duration="2844000" />
-      <workItem from="1542511420728" duration="3704000" />
+      <workItem from="1542511420728" duration="9253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16599000" />
+    <option name="totallyTimeSpent" value="22148000" />
   </component>
-  <component name="TodoView" selected-index="1">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -184,9 +198,10 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22136422" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32894737" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -199,7 +214,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,13 +351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery冲突问题.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -374,8 +381,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/静态方法和实例方法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="476">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/静态方法的each方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/静态方法的map方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery中的其他静态方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/静态方法holdready方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
