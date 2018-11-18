@@ -3,8 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="js/jquery-1.7.1.js"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .class1 {
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+        .class2{
+            border: 10px solid black;
+        }
+    </style>
+    <script>
+        $(function () {
+            /*
+            *
+            *
+            *
+            *
+            */
+            var btns = document.getElementsByTagName("button");
+            btns[0].onclick = function () {
+                $("div").addClass("class1 class2");
+            };
+            btns[1].onclick = function () {
+                $("div").removeClass("class1 class2");
+            };
+            btns[2].onclick = function () {
+                $("div").toggleClass("class1 class2");
+            };
+         });
+    </script>
 </head>
 <body>
-
+<button>添加类</button>
+<button>删除类</button>
+<button>切换类</button>
+<div></div>
 </body>
 </html>
