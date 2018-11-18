@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+            margin: 10px;
+        }
+    </style>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+            //找到没有文本元素并且没有子元素的指定元素
+            var $div = $("div:empty");
+            console.log($div);
+
+
+
+            //找到有文本元素或者有子元素的指定元素
+            var $div1 = $("div:parent");
+            console.log($div1);
+
+
+            //找到包含指定文本的指定元素
+            var $div2 = $("div:contains('123')");
+            console.log($div2);
+
+            //找到包含指定子元素的指定元素
+            var $div3 = $("div:has(span)");
+            console.log($div3);
+        });
+    </script>
+</head>
+<body>
+
+
+
+<div></div>
+<div>woshi123</div>
+<div>12345678</div>
+<div><span></span></div>
+<div><p></p></div>
+
+
+
+</body>
+</html>

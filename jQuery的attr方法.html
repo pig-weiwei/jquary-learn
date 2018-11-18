@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+            /*
+            *1，attr（）获取或设置属性节点的值
+            * 可以传递一个参数，也可以传递两个参数
+            * 一个参数 代表获取属性节点的值
+            * 两个参数 代表设置属性节点的值
+            * 注意点：如果是获取，无论找到多少个元素，都只会返回第一个元素指定的节点的值
+            * 注意点：如果是设置，找到多少个元素，就会设置多少；
+            * 如果设置的节点不存在，系统就会新增
+            *
+            *2，removeattr（name）
+            * 会删除所有找到元素的指定节点
+            * 如果需要删除多个指定节点 直接在后面空格，然后接着写
+            *
+            */
+            console.log($("span").attr("class"));
+
+            console.log($("span").attr("class", "box1"));
+
+            $("span").removeAttr("class");
+        });
+    </script>
+</head>
+<body>
+<span class="span1" name="zww1"></span>
+<span class="span2" name="zww2"></span>
+</body>
+</html>

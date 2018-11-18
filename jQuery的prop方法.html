@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery的prop方法</title>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+            /*
+            * 1, prop方法
+            * 特点和attr方法一致
+            * 2，removeprop方法
+            * 特点和removeattr方法一致
+            *
+            */
+            $("span").prop("demo","zww niubi");
+            $("span").eq(1).prop("demo","zhen niu bi");
+
+            $("span").removeProp("demo");
+
+            console.log($("span").eq(1).prop("class"));
+
+            console.log($("span").prop("name","zww"));
+
+            console.log($("input").prop("checked"));  //返回true和false
+            console.log($("input").attr("checked"));  //返回checked和undefined
+            /*
+            *
+            * 具有ture和false两个属性的属性节点 如 checked selected disabled 使用prop，其他的都应用attr
+            *
+            *
+            *
+            */
+        });
+    </script>
+</head>
+<body>
+<span class="span1" name="zww1"></span>
+<span class="span2" name="zww2"></span>
+<input type="checkbox" checked>
+</body>
+</html>
