@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery对象</title>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+            /*
+            * 1，什么是jQuery的对象
+            * jQuery的对象就是一个伪数组
+            *
+            *2，什么是伪数组
+            *有0到length-1的属性和length的属性
+            *
+            *
+            */
+            var $div = $("div");
+            console.log($div);
+        })
+    </script>
+</head>
+<body>
+<div>div1</div>
+<div>div2</div>
+<div>div3</div>
+</body>
+</html>

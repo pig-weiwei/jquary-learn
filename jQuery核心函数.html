@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        //$();这就代表了jQuery的核心函数
+
+        //1，接受一个函数
+        $(function () {
+            alert("123");
+
+
+        //2,接收一个字符串
+        //2,1 接收一个字符串选择器
+            //返回的是jQuery对象，其中保存的是找到的DOM元素
+           var $box1 = $(".box1");
+           var $box2 = $("#box2");
+            console.log($box1);
+            console.log($box2);
+            //2,2 接收一个代码片段
+            //返回的是jQuery对象，对象中保存的是dom元素
+            var $p = $("<p>找工作</p>");
+            console.log($p);
+            $box1.append($p);
+            //3 接收一个DOM元素
+            //会被包装成一个jQuery对象返回给我们
+            var $span = $("span");
+            console.log($span);
+        });
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+<div class="box1"></div>
+<div id="box2"></div>
+<span>旁边的小姐姐很漂亮</span>
+</body>
+</html>
