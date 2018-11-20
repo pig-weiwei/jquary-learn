@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1751b0-931f-42cd-8374-5f2a7e671235" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/jQuery文本值相关的操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery事件冒泡和默认行为.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery事件自动触发.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery事件解绑.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery位置和尺寸操作的方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery操作css样式的方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery的scrolltop方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery自定义事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery事件绑定方法.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jQuery中的其他静态方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/jQuery中的其他静态方法.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +24,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="类操作相关方法.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/类操作相关方法.html">
+      <file leaf-file-name="jQuery事件解绑.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jQuery事件解绑.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            <state relative-caret-position="544">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jQuery文本值相关的操作.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jQuery文本值相关的操作.html">
+      <file leaf-file-name="jQuery事件冒泡和默认行为.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jQuery事件冒泡和默认行为.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+            <state relative-caret-position="253">
+              <caret line="27" column="41" lean-forward="true" selection-end-line="56" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jQuery事件自动触发.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jQuery事件自动触发.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="16" lean-forward="true" selection-end-line="74" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jQuery自定义事件.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jQuery自定义事件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -50,6 +74,7 @@
     <findStrings>
       <find>Title</find>
       <find>func</find>
+      <find>fanther</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -79,6 +104,14 @@
         <option value="$PROJECT_DIR$/类操作相关方法.html" />
         <option value="$PROJECT_DIR$/jQuery中的其他静态方法.html" />
         <option value="$PROJECT_DIR$/jQuery文本值相关的操作.html" />
+        <option value="$PROJECT_DIR$/jQuery操作css样式的方法.html" />
+        <option value="$PROJECT_DIR$/jQuery位置和尺寸操作的方法.html" />
+        <option value="$PROJECT_DIR$/jQuery的scrolltop方法.html" />
+        <option value="$PROJECT_DIR$/jquery事件绑定方法.html" />
+        <option value="$PROJECT_DIR$/jQuery事件解绑.html" />
+        <option value="$PROJECT_DIR$/jQuery事件冒泡和默认行为.html" />
+        <option value="$PROJECT_DIR$/jQuery事件自动触发.html" />
+        <option value="$PROJECT_DIR$/jQuery自定义事件.html" />
       </list>
     </option>
   </component>
@@ -92,8 +125,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="165" />
-    <option name="y" value="75" />
+    <option name="x" value="531" />
+    <option name="y" value="91" />
     <option name="width" value="1598" />
     <option name="height" value="912" />
   </component>
@@ -176,12 +209,12 @@
       <workItem from="1542511420728" duration="21824000" />
       <workItem from="1542543195342" duration="100000" />
       <workItem from="1542680363813" duration="51000" />
-      <workItem from="1542680452208" duration="2448000" />
+      <workItem from="1542680452208" duration="16842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37318000" />
+    <option name="totallyTimeSpent" value="51712000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -193,10 +226,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="165" y="75" width="1598" height="912" extended-state="0" />
+    <frame x="531" y="91" width="1598" height="912" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22136422" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22136422" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -492,8 +525,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jQuery文本值相关的操作.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        <state relative-caret-position="-70">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery操作css样式的方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery位置和尺寸操作的方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="32" column="43" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="32" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery的scrolltop方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery事件绑定方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery事件解绑.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery事件冒泡和默认行为.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="27" column="41" lean-forward="true" selection-end-line="56" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery事件自动触发.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-end-line="74" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery自定义事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
         </state>
       </provider>
     </entry>

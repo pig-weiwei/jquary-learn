@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery操作css样式的方法</title>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+            //逐个设置
+            $("div").css("width","100px");
+            $("div").css("height","100px");
+            $("div").css("background","red");
+
+            //链式设置
+            //大于三步建议分开
+            $("div").css("width","200px").css("height","200px");
+
+            //批量设置（推荐）
+            $("div").css({
+                width: 500,
+                height: 500
+            });
+
+
+            //获取css样式值
+            console.log($("div").css("width"));
+        });
+    </script>
+</head>
+<body>
+<div></div>
+</body>
+</html>

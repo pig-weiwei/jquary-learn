@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery事件绑定方法</title>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+            //编码效率高，部分事件jQuery没有实现，所以不能添加
+
+
+
+            //可以添加多种相同或不同类型事件，并且不会覆盖
+            $("button").click(function () {
+                alert("ok");
+            });
+            $("button").click(function () {
+                alert("123");
+            });
+            $("button").mouseenter(function () {
+                alert("mouseenter");
+            });
+            $("button").mouseleave(function () {
+                alert("mouseleave");
+            });
+
+            //编码效率低，下面这种所有js事件都可以实现
+            //可以添加多种相同或不同类型事件，并且不会覆盖
+
+            // $("button").on("click" ,function () {
+            //     alert("ok");
+            // });
+         });
+    </script>
+</head>
+<body>
+<button>我是按钮</button>
+</body>
+</html>

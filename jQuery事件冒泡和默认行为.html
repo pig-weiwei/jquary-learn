@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0;
+        }
+        .father{
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+        .son {
+            width: 100px;
+            height: 100px;
+            background: black;
+        }
+    </style>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+            $(".father").click(function () {
+                alert("father");
+            });
+            $(".son").click(function () {
+                alert("son");
+
+                //下面两行是阻止事件冒泡
+                // return false;
+                event.stopPropagation();
+            });
+
+
+            $("a").click(function () {
+                alert("abc");
+
+
+                //return false;
+                event.preventDefault();
+            });
+         });
+    </script>
+</head>
+<body>
+<div class="father">
+    <div class="son"></div>
+</div>
+<a href="https://www.baidu.com">百度</a>
+<form action="https://www.taobao.com">
+    <input type="text">
+    <input type="submit">
+</form>
+</body>
+</html>
