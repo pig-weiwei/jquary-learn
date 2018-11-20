@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1751b0-931f-42cd-8374-5f2a7e671235" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/jQuery文本值相关的操作.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/类操作相关方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/类操作相关方法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jQuery中的其他静态方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/jQuery中的其他静态方法.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="类操作相关方法.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="类操作相关方法.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/类操作相关方法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="714">
+              <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jQuery文本值相关的操作.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jQuery文本值相关的操作.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -39,6 +49,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Title</find>
+      <find>func</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -58,7 +69,6 @@
         <option value="$PROJECT_DIR$/静态方法和实例方法.html" />
         <option value="$PROJECT_DIR$/静态方法的each方法.html" />
         <option value="$PROJECT_DIR$/静态方法的map方法.html" />
-        <option value="$PROJECT_DIR$/jQuery中的其他静态方法.html" />
         <option value="$PROJECT_DIR$/静态方法holdready方法.html" />
         <option value="$PROJECT_DIR$/通过webstorm简化操作.html" />
         <option value="$PROJECT_DIR$/内容选择器.html" />
@@ -67,6 +77,8 @@
         <option value="$PROJECT_DIR$/jQuery的prop方法.html" />
         <option value="$PROJECT_DIR$/prop和attr的练习.html" />
         <option value="$PROJECT_DIR$/类操作相关方法.html" />
+        <option value="$PROJECT_DIR$/jQuery中的其他静态方法.html" />
+        <option value="$PROJECT_DIR$/jQuery文本值相关的操作.html" />
       </list>
     </option>
   </component>
@@ -123,7 +135,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../learn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -162,11 +174,14 @@
       <workItem from="1542444668602" duration="3708000" />
       <workItem from="1542455990660" duration="2844000" />
       <workItem from="1542511420728" duration="21824000" />
+      <workItem from="1542543195342" duration="100000" />
+      <workItem from="1542680363813" duration="51000" />
+      <workItem from="1542680452208" duration="2448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34719000" />
+    <option name="totallyTimeSpent" value="37318000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -179,8 +194,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="165" y="75" width="1598" height="912" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22136422" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22136422" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -206,6 +222,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/类操作相关方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/类操作相关方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/类操作相关方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -390,13 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery中的其他静态方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/静态方法的map方法.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -446,10 +476,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery中的其他静态方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/类操作相关方法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="714">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery文本值相关的操作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
         </state>
       </provider>
     </entry>
