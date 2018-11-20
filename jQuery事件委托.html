@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+            $("button").click(function () {
+                $("ul").append("<li>这是新增的li</li>");
+            });
+
+            // $("ul>li").click(function () {
+            //     console.log($(this).html());
+            // });
+
+
+            //将事件委托给ul来执行，this使用冒泡
+            $("ul").delegate("li","click",function () {
+                console.log($(this).html());
+            })
+         });
+    </script>
+</head>
+<body>
+<ul>
+    <li>这是第1个li</li>
+    <li>这是第2个li</li>
+    <li>这是第3个li</li>
+</ul>
+<button>新增一个li</button>
+</body>
+</html>

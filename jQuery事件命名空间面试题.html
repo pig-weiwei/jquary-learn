@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0;
+        }
+        .father{
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+        .son {
+            width: 100px;
+            height: 100px;
+            background: black;
+        }
+    </style>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+
+            /*
+            * 规则：1，只能用on来绑定
+            * 2，在事件名后加.XXX
+            * 3，可以利用trigger实行自动触发
+            *
+            */
+
+
+            $(".son").on("Click.zw",function () {
+                alert("click01");
+            });
+            $(".son").on("Click.qw",function () {
+                alert("click02");
+            });
+            $(".father").on("Click.zw",function () {
+                alert("click11");
+            });
+
+            //利用trigger触发子元素带命名空间的事件，也会触发父元素带相同命名空间的事件，而父元素没有命名空间的不会触发
+            //利用trigger触发子元素不带命名空间的事件，那么子元素所有相同类型的子元素和父元素都会触发
+            $(".father").on("Click",function () {
+                alert("click1");
+            });
+            $(".son").trigger("Click.zw");
+        });
+    </script>
+</head>
+<body>
+<div class="father">
+    <div class="son"></div>
+</div>
+<a href="https://www.baidu.com">百度</a>
+<form action="https://www.taobao.com">
+    <input type="text">
+    <input type="submit">
+</form>
+</body>
+</html>

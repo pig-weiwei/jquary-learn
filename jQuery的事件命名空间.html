@@ -24,19 +24,20 @@
         $(function () {
 
             /*
-            *
-            * 自定义事件的要求
-            * 1，只能通过on来定义
-            * 2，只能通过trigger来触发
+            * 规则：1，只能用on来绑定
+            * 2，在事件名后加.XXX
+            * 3，可以利用trigger实行自动触发
             *
             */
 
 
-
-            $(".son").on("myClick",function () {
-                alert("abc");
+            $(".son").on("Click.zw",function () {
+                alert("click1");
             });
-            $(".son").trigger("myClick");
+            $(".son").on("Click.qw",function () {
+                alert("click2");
+            });
+            $(".son").trigger("Click.zw");
         });
     </script>
 </head>
