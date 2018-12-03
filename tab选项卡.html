@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 400px;
+            height: 275px;
+            margin: 150px auto;
+            border: 1px solid #000000;
+        }
+        .nav>li {
+            list-style: none;
+            width: 100px;
+            height: 45px;
+            background: orange;
+            text-align: center;
+            line-height: 50px;
+            font-size: 18px;
+            float: left;
+        }
+        .nav>.current{
+            background: #CCCCCC;
+        }
+        .content>li {
+            list-style: none;
+            display: none;
+        }
+        .content>.show{
+            display: block;
+        }
+    </style>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+            /*$(".nav>li").hover(function () {
+                $(this).addClass("current");
+                var $index = $(this).index();
+                var $img = $(".content>li").eq($index);
+                $img.addClass("show");
+            },function () {
+                $(this).removeClass("current");
+                var $index = $(this).index();
+                var $img = $(".content>li").eq($index);
+                $img.removeClass("show");
+            });*/
+
+            $(".nav>li").mouseenter(function () {
+                $(this).addClass("current");
+                $(this).siblings().removeClass("current");
+                var $index = $(this).index();
+                var $img = $(".content>li").eq($index);
+                $img.addClass("show");
+                $img.siblings().removeClass("show");
+            })
+         });
+    </script>
+</head>
+<body>
+<div class="box">
+    <ul class="nav">
+        <li class="current">h5</li>
+        <li>css</li>
+        <li>c</li>
+        <li>java</li>
+    </ul>
+    <ul class="content">
+        <li class="show"><img src="pic/dy.jpg" height="230" width="400" alt=""></li>
+        <li><img src="pic/testpic.PNG" height="230" width="400" alt=""></li>
+        <li><img src="" alt=""></li>
+        <li><img src="" alt=""></li>
+    </ul>
+</div>
+</body>
+</html>
