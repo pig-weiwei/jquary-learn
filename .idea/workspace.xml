@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1751b0-931f-42cd-8374-5f2a7e671235" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/jQuery事件命名空间面试题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery事件委托.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery的事件命名空间.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery委托练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery的移入移除事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/dy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/电影排行榜.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jQuery自定义事件.html" beforeDir="false" afterPath="$PROJECT_DIR$/jQuery自定义事件.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,17 +23,44 @@
       <file leaf-file-name="jQuery事件命名空间面试题.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jQuery事件命名空间面试题.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="748">
               <caret line="44" column="61" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jQuery事件委托.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jQuery事件委托.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jQuery事件委托.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="425">
+              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jQuery委托练习.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jQuery委托练习.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="541">
+              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jQuery的移入移除事件.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jQuery的移入移除事件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="电影排行榜.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/电影排行榜.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -93,6 +120,9 @@
         <option value="$PROJECT_DIR$/jQuery的事件命名空间.html" />
         <option value="$PROJECT_DIR$/jQuery事件命名空间面试题.html" />
         <option value="$PROJECT_DIR$/jQuery事件委托.html" />
+        <option value="$PROJECT_DIR$/jQuery委托练习.html" />
+        <option value="$PROJECT_DIR$/jQuery的移入移除事件.html" />
+        <option value="$PROJECT_DIR$/电影排行榜.html" />
       </list>
     </option>
   </component>
@@ -106,8 +136,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="116" />
+    <option name="x" value="214" />
+    <option name="y" value="95" />
     <option name="width" value="1598" />
     <option name="height" value="912" />
   </component>
@@ -149,14 +179,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../learn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\html\study1\pic" />
+      <recent name="D:\html\study1\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\html\study1\pic" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\html\study1\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -190,12 +221,13 @@
       <workItem from="1542511420728" duration="21824000" />
       <workItem from="1542543195342" duration="100000" />
       <workItem from="1542680363813" duration="51000" />
-      <workItem from="1542680452208" duration="21947000" />
+      <workItem from="1542680452208" duration="22139000" />
+      <workItem from="1543805356763" duration="10458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56817000" />
+    <option name="totallyTimeSpent" value="67467000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -207,10 +239,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="116" width="1598" height="912" extended-state="0" />
+    <frame x="214" y="95" width="1598" height="912" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22136422" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22136422" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -236,27 +268,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery的写法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -555,15 +566,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jQuery事件命名空间面试题.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="748">
           <caret line="44" column="61" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery的移入移除事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery委托练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jQuery事件委托.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="425">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电影排行榜.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
         </state>
       </provider>
     </entry>
