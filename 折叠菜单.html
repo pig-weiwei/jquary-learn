@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>折叠菜单</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            width: 300px;
+            margin: 100px auto;
+            /*border: 1px solid #000000;*/
+            list-style: none;
+        }
+        .nav>li{
+            border: 1px solid #000000;
+            line-height: 35px;
+            border-bottom: none;
+            text-indent: 2em;
+            position: relative;
+        }
+        .nav>li:last-child{
+            border-bottom: 1px solid #000000;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+        .nav>li:first-child{
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        .nav>li>span{
+            background: url("pic/dayu.png") no-repeat center center;
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            right: 10px;
+            top: 5px;
+            bottom: 5px;
+        }
+        .sub>li{
+            list-style: none;
+            background: pink;
+            border-bottom: 1px solid #fff;
+        }
+        .sub>li:hover{
+            background: red;
+        }
+    </style>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+
+         });
+    </script>
+</head>
+<body>
+<ul class="nav">
+    <li>这是一级菜单<span></span>
+        <ul class="sub">
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+        </ul>
+    </li>
+    <li>这是一级菜单<span></span></li>
+    <li>这是一级菜单<span></span></li>
+    <li>这是一级菜单<span></span></li>
+    <li>这是一级菜单<span></span></li>
+    <li>这是一级菜单<span></span></li>
+    <li>这是一级菜单<span></span></li>
+    <li>这是一级菜单<span></span></li>
+</ul>
+</body>
+</html>
