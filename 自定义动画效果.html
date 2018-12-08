@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义动画效果</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+            background: red;
+        }
+        .two{
+            background: blue;
+        }
+    </style>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+            $("button").eq(0).click(function () {
+                /*$(".one").animate({
+                    width: 500,
+                    height: 500,
+                },1000,function () {
+                    alert("执行完毕");
+                });*/
+
+
+                $(".one").animate({
+                    marginLeft: 500
+                },5000,function () {
+                    alert("执行完毕");
+                });
+
+                $(".two").animate({
+                    marginLeft: 500
+                },5000,"linear",function () {
+                    alert("执行完毕");
+                });
+
+            });
+            $("button").eq(1).click(function () {
+                $(".one").animate({
+                    width: "+=100"
+                },5000,function () {
+                    alert("执行完毕");
+                });
+            });
+            $("button").eq(2).click(function () {
+                $(".one").stop(true,true).animate({
+                    //width: "hide"
+                    width: "toggle"
+                },5000,function () {
+                    alert("执行完毕");
+                });
+            });
+         });
+    </script>
+</head>
+<body>
+<button>操作属性</button>
+<button>累加属性</button>
+<button>关键字</button>
+<div class="one"></div>
+<div class="two"></div>
+</body>
+</html>

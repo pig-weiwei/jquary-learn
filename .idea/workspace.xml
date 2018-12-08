@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1751b0-931f-42cd-8374-5f2a7e671235" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/弹窗广告.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/淡入淡出动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bd_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stop和delay方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图标特效（练习）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自定义动画效果.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,11 +20,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="弹窗广告.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="弹窗广告.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/弹窗广告.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+            <state relative-caret-position="368">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="自定义动画效果.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/自定义动画效果.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stop和delay方法.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stop和delay方法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="图标特效（练习）.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/图标特效（练习）.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -104,6 +133,9 @@
         <option value="$PROJECT_DIR$/展开动画的练习.html" />
         <option value="$PROJECT_DIR$/淡入淡出动画.html" />
         <option value="$PROJECT_DIR$/弹窗广告.html" />
+        <option value="$PROJECT_DIR$/自定义动画效果.html" />
+        <option value="$PROJECT_DIR$/stop和delay方法.html" />
+        <option value="$PROJECT_DIR$/图标特效（练习）.html" />
       </list>
     </option>
   </component>
@@ -117,10 +149,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="273" />
-    <option name="y" value="72" />
+    <option name="x" value="505" />
+    <option name="y" value="66" />
     <option name="width" value="1598" />
-    <option name="height" value="908" />
+    <option name="height" value="899" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -163,12 +195,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\html\study1\pic" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\html\study1\pic" />
       <recent name="D:\html\study1\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\html\study1\pic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -204,12 +236,12 @@
       <workItem from="1542680363813" duration="51000" />
       <workItem from="1542680452208" duration="22139000" />
       <workItem from="1543805356763" duration="23545000" />
-      <workItem from="1544233156996" duration="23021000" />
+      <workItem from="1544233156996" duration="28679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103575000" />
+    <option name="totallyTimeSpent" value="109233000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -221,7 +253,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="273" y="72" width="1598" height="908" extended-state="0" />
+    <frame x="505" y="66" width="1598" height="899" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22136422" />
@@ -233,7 +265,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32894737" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843792" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32751676" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -251,17 +283,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1.html" />
     <entry file="file://$PROJECT_DIR$/js/jquery.color.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -569,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/淡入淡出动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/展开动画的练习.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -585,8 +599,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/弹窗广告.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        <state relative-caret-position="368">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/淡入淡出动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自定义动画效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stop和delay方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图标特效（练习）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
         </state>
       </provider>
     </entry>
