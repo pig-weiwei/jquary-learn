@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>下拉菜单</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .nav{
+            width: 300px;
+            height: 50px;
+            margin: 300px auto;
+            border: 1px solid black;
+            list-style: none;
+        }
+        .nav>li{
+            width: 100px;
+            height: 50px;
+            background: red;
+            display: inline-block;
+            line-height: 50px;
+            text-align: center;
+            float: left;
+        }
+        .sub{
+            display: none;
+            background: pink;
+            list-style: none;
+        }
+        .sub>li{
+
+        }
+    </style>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+            $(".nav>li").hover(function () {
+                var $sub = $(this).children(".sub");
+                $sub.stop(true,true);
+                $sub.slideDown(500);
+            },function () {
+                var $sub = $(this).children(".sub");
+                $sub.stop(true,true);
+                $sub.slideUp(500);
+            });
+         });
+    </script>
+</head>
+<body>
+<ul class="nav">
+    <li>一级菜单1
+        <ul class="sub">
+            <li>这是二级菜单</li>
+            <li>这是二级菜单</li>
+            <li>这是二级菜单</li>
+            <li>这是二级菜单</li>
+        </ul>
+    </li>
+    <li>一级菜单2
+        <ul class="sub">
+            <li>这是二级菜单</li>
+            <li>这是二级菜单</li>
+            <li>这是二级菜单</li>
+            <li>这是二级菜单</li>
+        </ul>
+    </li>
+    <li>一级菜单3
+        <ul class="sub">
+            <li>这是二级菜单</li>
+            <li>这是二级菜单</li>
+            <li>这是二级菜单</li>
+            <li>这是二级菜单</li>
+        </ul>
+    </li>
+</ul>
+</body>
+</html>
