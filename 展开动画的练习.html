@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>展开动画的练习</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .nav{
+            list-style: none;
+            width: 600px;
+            margin: 100px auto;
+            border: 1px solid black;
+            letter-spacing: -8px;/*消除li之间的间隔*/
+        }
+        .nav>li{
+            display: inline-block;
+            line-height: 50px;
+            text-align: center;
+            width: 200px;
+            height: 50px;
+            letter-spacing: normal;
+        }
+        .sub{
+            display: none;
+        }
+        .sub>li{
+            list-style: none;
+        }
+        .other{
+            display: block !important;
+            margin-top: 15px;
+        }
+        .hid{
+            display: block !important;
+            margin: auto;
+            border: 1px solid black;
+        }
+    </style>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+            $(".hid").toggle(function () {
+                $(this).text("隐藏所有内容");
+                var $sub = $(".sub");
+                $sub.stop(true,true);//为什么和老师讲的不一样，我发现得用这种形式，不然会产生一种bug（过快的点击导致后面无法显示）
+                $sub.slideDown(1000);
+            },function () {
+                $(this).text("显示所有内容");
+                var $sub = $(".sub");
+                $sub.stop(true,true);
+                $sub.slideUp(1000);
+            });
+         });
+    </script>
+</head>
+<body>
+    <ul class="nav">
+        <li>佳能
+            <ul class="sub">
+                <li>尼康</li>
+                <li>富士</li>
+                <li>理光</li>
+            </ul>
+        </li>
+        <li>索尼
+            <ul class="sub">
+                <li>松下</li>
+                <li>可达</li>
+                <li>奥林巴斯</li>
+            </ul>
+        </li>
+        <li>三星
+            <ul class="sub">
+                <li>卡西欧</li>
+                <li>宾得</li>
+                <li>明基</li>
+            </ul>
+        </li>
+        <li class="other">显示其他品牌</li>
+        <li class="hid">显示所有内容</li>
+    </ul>
+</body>
+</html>
