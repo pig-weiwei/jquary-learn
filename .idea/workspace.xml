@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1751b0-931f-42cd-8374-5f2a7e671235" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pic/xh1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/xh2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/xh3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/xh4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/无限循环练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/删除节点.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/添加节点dom.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,11 +27,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="无限循环练习.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="无限循环练习.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/无限循环练习.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="442">
+              <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="添加节点dom.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/添加节点dom.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="删除节点.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/删除节点.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -111,6 +126,8 @@
         <option value="$PROJECT_DIR$/stop和delay方法.html" />
         <option value="$PROJECT_DIR$/图标特效（练习）.html" />
         <option value="$PROJECT_DIR$/无限循环练习.html" />
+        <option value="$PROJECT_DIR$/添加节点dom.html" />
+        <option value="$PROJECT_DIR$/删除节点.html" />
       </list>
     </option>
   </component>
@@ -124,8 +141,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="135" />
-    <option name="y" value="85" />
+    <option name="x" value="114" />
+    <option name="y" value="92" />
     <option name="width" value="1598" />
     <option name="height" value="899" />
   </component>
@@ -212,12 +229,12 @@
       <workItem from="1542680452208" duration="22139000" />
       <workItem from="1543805356763" duration="23545000" />
       <workItem from="1544233156996" duration="28970000" />
-      <workItem from="1544317722753" duration="3655000" />
+      <workItem from="1544317722753" duration="7668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113179000" />
+    <option name="totallyTimeSpent" value="117192000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -229,10 +246,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="85" width="1598" height="899" extended-state="0" />
+    <frame x="114" y="92" width="1598" height="899" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22136422" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22136422" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -259,10 +276,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/jquery.js" />
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -603,8 +616,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/无限循环练习.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        <state relative-caret-position="442">
+          <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/添加节点dom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/删除节点.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>

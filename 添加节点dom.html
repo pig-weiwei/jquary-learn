@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加节点dom</title>
+    <style>
+
+    </style>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+            $("button").click(function () {
+                var $li = $("<li>新增的节点</li>");
+
+                //$("ul").append($li)；
+                //$li.appendTo("ul");
+                // 将元素添加到指定元素的内部最后
+
+                //$("ul").prepend($li);
+                //$li.prependTo("ul");
+                //将元素添加到指定元素的内部最前
+
+                //$("ul").after($li);
+                //$li.insertAfter("ul");
+                //将元素添加到指定元素的外部后面（紧跟其后）
+
+                //$("ul").before($li);
+                $li.insertBefore("ul");
+                //将元素添加到指定元素的外部前面（紧跟其后）
+            });
+         });
+    </script>
+</head>
+<body>
+<button>添加节点</button>
+<ul>
+    <li>这是第1个节点</li>
+    <li>这是第2个节点</li>
+    <li>这是第3个节点</li>
+</ul>
+</body>
+</html>
