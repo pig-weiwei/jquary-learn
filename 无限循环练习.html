@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>无限循环练习</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        div{
+            width: 1040px;
+            height: 280px;
+            border: 1px solid #000;
+            margin: 100px auto;
+            overflow: hidden;
+        }
+        ul{
+            list-style: none;
+            width: 3120px;
+            height: 280px;
+            background: black;
+        }
+        ul>li{
+            float: left;
+        }
+    </style>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script>
+        $(function () {
+            var offset = 0;
+            var $time;
+            function autoPlay(){
+                $time= setInterval(function () {
+                    offset -=1;
+                    if(offset<-2080){
+                        offset=0;
+                    }
+                    $("ul").css("marginLeft",offset);
+                },5);
+            }
+            autoPlay();
+            $("li").hover(function () {
+                clearInterval($time);
+                $(this).siblings().fadeTo(50,0.5);
+                $(this).fadeTo(50,1);
+            },function () {
+                autoPlay();
+                $("li").fadeTo(50,1);
+            });
+         });
+    </script>
+</head>
+<body>
+<div>
+    <ul>
+        <li><img src="pic/xh1.jpg" alt=""></li>
+        <li><img src="pic/xh2.jpg" alt=""></li>
+        <li><img src="pic/xh3.jpg" alt=""></li>
+        <li><img src="pic/xh4.jpg" alt=""></li>
+        <li><img src="pic/xh1.jpg" alt=""></li>
+        <li><img src="pic/xh2.jpg" alt=""></li>
+    </ul>
+</div>
+</body>
+</html>

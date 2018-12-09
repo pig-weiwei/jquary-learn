@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1751b0-931f-42cd-8374-5f2a7e671235" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pic/bd_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stop和delay方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图标特效（练习）.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/自定义动画效果.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/xh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/xh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/xh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/xh4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/无限循环练习.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,47 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="弹窗广告.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/弹窗广告.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="自定义动画效果.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/自定义动画效果.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stop和delay方法.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stop和delay方法.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="图标特效（练习）.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/图标特效（练习）.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="淡入淡出动画.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/淡入淡出动画.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+              <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="无限循环练习.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/无限循环练习.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -136,6 +110,7 @@
         <option value="$PROJECT_DIR$/自定义动画效果.html" />
         <option value="$PROJECT_DIR$/stop和delay方法.html" />
         <option value="$PROJECT_DIR$/图标特效（练习）.html" />
+        <option value="$PROJECT_DIR$/无限循环练习.html" />
       </list>
     </option>
   </component>
@@ -149,8 +124,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="505" />
-    <option name="y" value="66" />
+    <option name="x" value="135" />
+    <option name="y" value="85" />
     <option name="width" value="1598" />
     <option name="height" value="899" />
   </component>
@@ -195,12 +170,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\html\study1\pic" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\html\study1\pic" />
       <recent name="D:\html\study1\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\html\study1\pic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -236,12 +211,13 @@
       <workItem from="1542680363813" duration="51000" />
       <workItem from="1542680452208" duration="22139000" />
       <workItem from="1543805356763" duration="23545000" />
-      <workItem from="1544233156996" duration="28679000" />
+      <workItem from="1544233156996" duration="28970000" />
+      <workItem from="1544317722753" duration="3655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109233000" />
+    <option name="totallyTimeSpent" value="113179000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -253,19 +229,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="505" y="66" width="1598" height="899" extended-state="0" />
+    <frame x="135" y="85" width="1598" height="899" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22136422" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32894737" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32751676" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32744566" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -274,6 +248,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,13 +259,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/jquery.color.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6196" selection-start-line="1" selection-start-column="6196" selection-end-line="1" selection-end-column="6196" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/jquery.js" />
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -599,22 +568,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/弹窗广告.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/淡入淡出动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        <state relative-caret-position="714">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/自定义动画效果.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+        <state relative-caret-position="918">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -627,8 +589,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/图标特效（练习）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
+        <state relative-caret-position="444">
           <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/淡入淡出动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/无限循环练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
         </state>
       </provider>
     </entry>
