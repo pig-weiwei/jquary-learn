@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: url("../pic/background.PNG") no-repeat center 0;
+}
+.nav{
+    width: 100%;
+    height: 48px;
+}
+.nav>img{
+    width: 100%;
+}
+.content{
+    width: 1000px;
+    height: auto;
+    background: #d0bcaa;
+    margin: 200px  auto 0 auto;
+    overflow: hidden;
+}
+.content>.left{
+    float: left;
+    width: 150px;
+}
+.content>.right{
+    float: right;
+    width: 200px;
+}
+.content>.center{
+    background: url("../pic/center.PNG") no-repeat 0 0;
+    width: 596px;
+    height: 183px;
+    float: left;
+}
+.center>.comment{
+    width: 576px;
+    height: 76px;
+    margin-top: 40px;
+    margin-left: 10px;
+    resize: none;
+    border: none;
+    outline: none;
+}
+.center>.send{
+    width: 82px;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 506px;
+    background-color: #ffc09f;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.content>.messageList{
+    width: 600px;
+    float: left;
+    background: #fff;
+}
+.messageList>.info{
+    padding: 10px 20px;
+    border-bottom: 2px solid #000;
+}
+.info>.infoText{
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.info>.infoOperation{
+    width: 100%;
+    overflow: hidden;
+}
+.infoOperation>.infoTime{
+    float: left;
+    font-size: 16px;
+    color: #CCCCCC;
+}
+.infoOperation>.infoHandle{
+    float: right;
+    font-size: 16px;
+}
+.infoHandle>a{
+    text-decoration: none;
+    color: #ccc;
+    padding-left: 20px;
+}
+.infoHandle>a:nth-child(1){
+    background: url("../pic/icons3.png") no-repeat -18px -559px;
+}
+.infoHandle>a:nth-child(3){
+    background: url("../pic/icons3.png") no-repeat -55px -559px;
+}
+.infoHandle>a:nth-child(5){
+    background: url("../pic/icons3.png") no-repeat -166px -231px;
+}
+.foot{
+    width: 1000px;
+    height: 40px;
+    background: #ffc09f;
+    margin: 0 auto;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.foot>a{
+    text-decoration: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 20px;
+    color: black;
+}
