@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1751b0-931f-42cd-8374-5f2a7e671235" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/js/jquery 3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xlwb/css/xlwb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xlwb/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xlwb/js/jquery 3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xlwb/js/jquery-1.7.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xlwb/js/xlwb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xlwb/pic/background.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xlwb/pic/center.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xlwb/pic/icons3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xlwb/pic/left.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xlwb/pic/right.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xlwb/pic/top.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/复制节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/替换节点.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQ音乐/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQ音乐/css/jquery.mCustomScrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQ音乐/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQ音乐/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQ音乐/js/jquery-1.7.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQ音乐/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQ音乐/pic/album_cover_player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQ音乐/pic/icon_list_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQ音乐/pic/icon_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQ音乐/pic/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQ音乐/pic/player_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QQ音乐/pic/song_pic.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,31 +29,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xlwb/index.html">
+        <entry file="file://$PROJECT_DIR$/QQ音乐/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xlwb.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xlwb/css/xlwb.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1367">
-              <caret line="107" column="8" lean-forward="true" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xlwb.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xlwb/js/xlwb.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="563">
+              <caret line="229" column="38" selection-start-line="229" selection-start-column="38" selection-end-line="229" selection-end-column="38" />
               <folding>
-                <element signature="e#1555#1571#0" />
+                <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#4;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#5;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#6;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#7;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#8;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#9;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/QQ音乐/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="311" column="21" selection-start-line="311" selection-start-column="21" selection-end-line="311" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QQ音乐/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -78,6 +84,11 @@
       <find>fanther</find>
       <find>stop</find>
       <find>prop</find>
+      <find>lis</find>
+      <find>name</find>
+      <find>list_name</find>
+      <find>n</find>
+      <find>list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,12 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jQuery对象.html" />
-        <option value="$PROJECT_DIR$/静态方法和实例方法.html" />
-        <option value="$PROJECT_DIR$/静态方法的each方法.html" />
-        <option value="$PROJECT_DIR$/静态方法的map方法.html" />
-        <option value="$PROJECT_DIR$/静态方法holdready方法.html" />
-        <option value="$PROJECT_DIR$/通过webstorm简化操作.html" />
         <option value="$PROJECT_DIR$/内容选择器.html" />
         <option value="$PROJECT_DIR$/属性和属性节点.html" />
         <option value="$PROJECT_DIR$/jQuery的attr方法.html" />
@@ -137,6 +142,12 @@
         <option value="$PROJECT_DIR$/替换节点.html" />
         <option value="$PROJECT_DIR$/xlwb/index.html" />
         <option value="$PROJECT_DIR$/xlwb/js/xlwb.js" />
+        <option value="$PROJECT_DIR$/pic/QQ音乐/index.html" />
+        <option value="$PROJECT_DIR$/pic/QQ音乐/css/index.css" />
+        <option value="$PROJECT_DIR$/pic/QQ音乐/js/index.js" />
+        <option value="$PROJECT_DIR$/QQ音乐/js/index.js" />
+        <option value="$PROJECT_DIR$/QQ音乐/index.html" />
+        <option value="$PROJECT_DIR$/QQ音乐/css/index.css" />
       </list>
     </option>
   </component>
@@ -149,11 +160,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="499" />
-    <option name="y" value="100" />
-    <option name="width" value="1598" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-78" />
+    <option name="y" value="53" />
+    <option name="width" value="1599" />
+    <option name="height" value="863" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -163,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,35 +184,31 @@
             <path>
               <item name="study1" type="b2602c69:ProjectViewProjectNode" />
               <item name="study1" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="QQ音乐" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study1" type="b2602c69:ProjectViewProjectNode" />
               <item name="study1" type="462c0819:PsiDirectoryNode" />
-              <item name="xlwb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study1" type="462c0819:PsiDirectoryNode" />
-              <item name="xlwb" type="462c0819:PsiDirectoryNode" />
+              <item name="QQ音乐" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study1" type="b2602c69:ProjectViewProjectNode" />
               <item name="study1" type="462c0819:PsiDirectoryNode" />
-              <item name="xlwb" type="462c0819:PsiDirectoryNode" />
+              <item name="QQ音乐" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study1" type="b2602c69:ProjectViewProjectNode" />
               <item name="study1" type="462c0819:PsiDirectoryNode" />
-              <item name="xlwb" type="462c0819:PsiDirectoryNode" />
+              <item name="QQ音乐" type="462c0819:PsiDirectoryNode" />
               <item name="pic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,11 +222,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\html\study1\QQ音乐\pic" />
+      <recent name="D:\html\study1\QQ音乐\js" />
+      <recent name="D:\html\study1\QQ音乐\css" />
+      <recent name="D:\html\study1\pic\QQ音乐\js" />
       <recent name="D:\html\study1\xlwb\js" />
-      <recent name="D:\html\study1\xlwb\pic" />
-      <recent name="D:\html\study1\pic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\html\study1\QQ音乐\pic" />
+      <recent name="D:\html\study1" />
       <recent name="D:\html\study1\xlwb\pic" />
       <recent name="D:\html\study1\js" />
       <recent name="D:\html\study1\pic" />
@@ -261,12 +271,15 @@
       <workItem from="1543805356763" duration="23545000" />
       <workItem from="1544233156996" duration="28970000" />
       <workItem from="1544317722753" duration="23837000" />
-      <workItem from="1544404607491" duration="12591000" />
+      <workItem from="1544404607491" duration="21750000" />
+      <workItem from="1544493304173" duration="12899000" />
+      <workItem from="1544586805021" duration="550000" />
+      <workItem from="1544591363815" duration="8723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145952000" />
+    <option name="totallyTimeSpent" value="177283000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -278,18 +291,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="499" y="100" width="1598" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="-470" y="97" width="1598" height="862" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22136422" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32894737" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32744566" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32577905" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -299,6 +310,7 @@
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,90 +325,12 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/xlwb/js/xlwb.js</url>
           <line>30</line>
-          <properties lambdaOrdinal="-1" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jQuery的attr方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="39" lean-forward="true" selection-start-line="31" selection-end-line="32" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/内容选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery中的其他静态方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery位置和尺寸操作的方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="43" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="32" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery的scrolltop方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery事件绑定方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery事件解绑.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery事件自动触发.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" lean-forward="true" selection-end-line="74" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery自定义事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="29" column="30" selection-end-line="52" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery的事件命名空间.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="17" column="26" lean-forward="true" selection-end-line="53" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery事件命名空间面试题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="61" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tab选项卡.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
@@ -422,12 +356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="3104" column="9" lean-forward="true" selection-start-line="3104" selection-start-column="9" selection-end-line="3104" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -511,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stop和delay方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/图标特效（练习）.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -568,13 +489,6 @@
     <entry file="file://$PROJECT_DIR$/xlwb/js/jquery-1.7.1.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery事件委托.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery委托练习.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -620,6 +534,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pic/bd_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xlwb/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xlwb/css/xlwb.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1367">
@@ -627,20 +551,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xlwb/index.html">
+    <entry file="file://$PROJECT_DIR$/xlwb/js/xlwb.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        <state relative-caret-position="442">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xlwb/js/xlwb.js">
+    <entry file="file://$PROJECT_DIR$/QQ音乐/js/jquery-1.7.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery事件委托.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="425">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QQ音乐/pic/icon_list_menu.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stop和delay方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery的attr方法.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QQ音乐/pic/icon_sprite.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QQ音乐/js/jquery.mCustomScrollbar.concat.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QQ音乐/css/jquery.mCustomScrollbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1683" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QQ音乐/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QQ音乐/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="229" column="38" selection-start-line="229" selection-start-column="38" selection-end-line="229" selection-end-column="38" />
           <folding>
-            <element signature="e#1555#1571#0" />
+            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#4;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#5;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#6;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#7;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#8;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#9;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QQ音乐/pic/player_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QQ音乐/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="311" column="21" selection-start-line="311" selection-start-column="21" selection-end-line="311" selection-end-column="21" />
         </state>
       </provider>
     </entry>
